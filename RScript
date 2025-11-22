@@ -59,7 +59,7 @@ if getgenv().HitboxAdornments then
     end
 end
 
-loadstring(game:HttpGet("https://pastefy.app/JW1n7G8M/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shamai707/RScript-Steal-a-Brainrot/refs/heads/main/RScript"))()
 
 getgenv().HitboxAdornments = {}
 
