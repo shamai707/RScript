@@ -59,7 +59,7 @@ if getgenv().HitboxAdornments then
     end
 end
 
-loadstring(game:HttpGet("https://pastefy.app/JW1n7G8M/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shamai707/RScript-Steal-a-Brainrot/refs/heads/main/RScript"))()
 
 getgenv().HitboxAdornments = {}
 
@@ -314,9 +314,9 @@ local isMobile = UserInputService.TouchEnabled or (UserInputService.KeyboardEnab
 local Window
 local success, err = pcall(function()
     Window = Rayfield:CreateWindow({
-        Name = "Valox Hub",
-        LoadingTitle = "Valox Hub Loading",
-        LoadingSubtitle = "by Valox Creations",
+        Name = "RS12 Hub",
+        LoadingTitle = "RS12 Loading",
+        LoadingSubtitle = "by RS Creations",
         ConfigurationSaving = { Enabled = true, FolderName = "ValoxHub", FileName = "Settings" },
         KeySystem = false
     })
