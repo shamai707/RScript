@@ -8,7 +8,7 @@ if getgenv().Rayfield and type(getgenv().Rayfield.Destroy) == "function" then
 end
 getgenv().Rayfield = nil
 
-if getgenv().Connections then 
+if getgenv().Connections then
     for _, c in pairs(getgenv().Connections) do
         pcall(function() c:Disconnect() end)
     end
@@ -59,7 +59,7 @@ if getgenv().HitboxAdornments then
     end
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shamai707/RScript-Steal-a-Brainrot/refs/heads/main/RScript"))()
+loadstring(game:HttpGet("https://pastefy.app/JW1n7G8M/raw"))()
 
 getgenv().HitboxAdornments = {}
 
@@ -314,9 +314,9 @@ local isMobile = UserInputService.TouchEnabled or (UserInputService.KeyboardEnab
 local Window
 local success, err = pcall(function()
     Window = Rayfield:CreateWindow({
-        Name = "RS12 Hub",
-        LoadingTitle = "RS12 Hub Loading",
-        LoadingSubtitle = "by RS12",
+        Name = "Valox Hub",
+        LoadingTitle = "Valox Hub Loading",
+        LoadingSubtitle = "by Valox Creations",
         ConfigurationSaving = { Enabled = true, FolderName = "ValoxHub", FileName = "Settings" },
         KeySystem = false
     })
