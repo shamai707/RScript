@@ -353,7 +353,7 @@ local success, err = pcall(function()
                 setclipboard(DISCORD_LINK)
                 if not getgenv().MiscSettings.DisableNotifications then
                     Rayfield:Notify({
-                        Title = "Valox Hub",
+                        Title = "RS12 Hub",
                         Content = "Discord link copied to clipboard!",
                         Duration = 3
                     })
@@ -386,7 +386,7 @@ local success, err = pcall(function()
                 if not url or url == "" then
                     if not getgenv().MiscSettings.DisableNotifications then
                         Rayfield:Notify({
-                            Title = "Valox Hub",
+                            Title = "RS12 Hub",
                             Content = "No URL set for " .. name,
                             Duration = 3
                         })
@@ -395,7 +395,7 @@ local success, err = pcall(function()
                 end
                 if not getgenv().MiscSettings.DisableNotifications then
                     Rayfield:Notify({
-                        Title = "Valox Hub",
+                        Title = "RS12 Hub",
                         Content = "Loading " .. name,
                         Duration = 2
                     })
@@ -408,7 +408,7 @@ local success, err = pcall(function()
                 if not ok then
                     if not getgenv().MiscSettings.DisableNotifications then
                         Rayfield:Notify({
-                            Title = "Valox Hub",
+                            Title = "RS12 Hub",
                             Content = "Failed to load " .. name .. ": " .. tostring(err),
                             Duration = 3
                         })
@@ -416,7 +416,7 @@ local success, err = pcall(function()
                 else
                     if not getgenv().MiscSettings.DisableNotifications then
                         Rayfield:Notify({
-                            Title = "Valox Hub",
+                            Title = "RS12 Hub",
                             Content = name .. " loaded",
                             Duration = 2
                         })
